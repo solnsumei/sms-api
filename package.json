@@ -1,0 +1,36 @@
+{
+  "name": "sms-api",
+  "version": "1.0.0",
+  "description": "Api to manage sms",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/bin/index.js",
+    "test": "jest --coverage --detectOpenHandles --forceExit"
+  },
+  "author": "Solomon Nsumei",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@hapi/joi": "^15.0.3",
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-validation": "^1.0.0",
+    "mongoose": "^5.5.14",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}

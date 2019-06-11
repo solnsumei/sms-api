@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+coverage/*
+.idea
+.idea/
+.env
+.code
+.vscode
+.vcs.xml
