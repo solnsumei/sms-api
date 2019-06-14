@@ -1,4 +1,4 @@
-import http from require('http');
+import http from 'http';
 import dotenv from 'dotenv';
 import app from '../app';
 

@@ -1,14 +1,11 @@
 # SMS Management API
-
 Api to manage sms
 
-## Built with
-- NodeJs
-- MongoDb
-- KoaJs
+## Prerequisite
+This application depends on having the following softwares installed on your machine:
+- MongoDB
+- NodeJS
 
-## Features
-- SMS management
 
 ## Installation
 After cloning this repository, cd into the root of the project, and run:
@@ -25,3 +22,11 @@ yarn dev
 ```
 yarn test
 ```
+
+## Built with
+- NodeJs
+- MongoDB
+- KoaJs
+
+## API Documentation
+View [Documentation](https://documenter.getpostman.com/view/2956075/S1Zw7Amd) here

@@ -18,10 +18,9 @@
     "dotenv": "^8.0.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
-    "koa2-validation": "^1.0.0",
-    "mongoose": "^5.5.14",
-    "validator": "^11.0.0"
+    "mongoose": "^5.5.14"
   },
   "devDependencies": {
     "@babel/plugin-transform-regenerator": "^7.4.5",
